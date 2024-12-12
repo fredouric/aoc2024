@@ -10,9 +10,9 @@ def parse_input(file: str) -> (list, list):
 
 def compute_similarity(left, right: list) -> int:
     score = 0
-    for i in left: 
+    for i in left:
         occurences = right.count(i)
-        score += i*occurences
+        score += i * occurences
     return score
 
 
