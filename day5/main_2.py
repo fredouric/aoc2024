@@ -55,7 +55,4 @@ if __name__ == "__main__":
     for update in wrong_updates:
         ordered_updates.append(reorder_update(ordering_rules, update))
 
-    for update in ordered_updates:
-        print(is_valid_update(ordering_rules, update))
-
     print(add_middle_element(ordered_updates))
